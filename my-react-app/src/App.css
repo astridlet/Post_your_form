@@ -47,3 +47,24 @@
 .FormEmployee .form-data input:not([type="submit"]) {
   flex-grow: 1;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.form-input {
+  margin: 10px;
+}
+
+.form-button {
+  margin: 10px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 6px solid white;
+  height: 40px;
+  width: 80px;
+  text-transform: uppercase;
+}
